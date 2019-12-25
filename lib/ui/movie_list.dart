@@ -28,7 +28,7 @@ class MovieListState extends State<MovieList> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Popular Movies'),
+        title: Text('Movies'),
       ),
       body: StreamBuilder(
         stream: bloc.allMovies,
